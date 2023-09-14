@@ -1,12 +1,12 @@
 const world = (req, res) => {
-    res.send('Hello world');
+  res.send('Hello world');
 };
 
 const earth = (req, res) => {
-    res.send('Hello earth');
+  res.send('Hello earth');
 };
 
 module.exports = {
-    world,
-    earth
+  world,
+  earth
 };
